@@ -9,3 +9,4 @@ This project investigates whether small language models (0.8B–4B parameters) c
 ## Repository Files
 
 - `qwen_scratchpad.ipynb`: contains quick experiments as a proof of concept during experimental design. Runs the self-consistency paradigm on QWEN and GSM8K.
+- `test_time_scaling_qwen3_5_0_8b.ipynb`: contains experiments for running QWEN3.5-0.8B on GSM8K. Can be adapted to run different models on different dataset (ARC) by changing the model_name and dataset variable.
